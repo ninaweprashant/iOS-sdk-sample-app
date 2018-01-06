@@ -27,9 +27,9 @@ class ViewController: UIViewController, StandardCheckoutDelegate {
         requestParameters.merchantTransactionId = "randomnumber265"
         requestParameters.amount = "50.00"
         requestParameters.currency = "USD"
-        requestParameters.toType = "paymentz"
+        requestParameters.toType = "pz"
         requestParameters.paymentBrand = PaymentBrand().visa
-        requestParameters.merchantRedirectUrl = "www.paymentz.com"
+        requestParameters.merchantRedirectUrl = "www.merchantredirecturl.com"
         requestParameters.tmplAmount = "50.00"
         requestParameters.tmplCurrency = "USD"
         requestParameters.orderDescription = "Test"
@@ -37,11 +37,11 @@ class ViewController: UIViewController, StandardCheckoutDelegate {
         requestParameters.state = "MH"
         requestParameters.street = "Malad"
         requestParameters.city = "Mumbai"
-        requestParameters.email = "savitha.m@paymentz.com"
+        requestParameters.email = "savitha.m@xyz.com"
         requestParameters.postCode = "400064"
         requestParameters.telnocc = "+91"
         requestParameters.phone = "9096831666"
-        requestParameters.hostUrl = "https://staging.paymentz.com/transaction/PayProcessController"
+        requestParameters.hostUrl = "https://staging.testurl.com/transaction/PayProcessController"
         
         let standardCheckout = StandardCheckout(viewController: self)
         standardCheckout.initPayment(requestParameters: requestParameters, standardCheckoutDelegate: self, secureKey: secureKey)

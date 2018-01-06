@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9625776755B85A61F9C6D67362AF967C187FD0F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9625776755B85A61F9C6D67362AF967C187FD0F2" : 9223372036854775807,
+    "F04F5C2A308E28787721F5EB44F649857C089548" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "22F18123-3625-4500-B9D2-FFDC03696DB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9625776755B85A61F9C6D67362AF967C187FD0F2" : "standard-checkout-kit-demo\/",
+    "F04F5C2A308E28787721F5EB44F649857C089548" : "standard-checkout-kit-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StandardCheckoutKitDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StandardCheckoutKitDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.paymentz.com\/mobile-team\/standard-checkout-kit-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9625776755B85A61F9C6D67362AF967C187FD0F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.paymentz.com\/mobile-team\/standard-checkout-kit-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F04F5C2A308E28787721F5EB44F649857C089548"
+    }
+  ]
+}

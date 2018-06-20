@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  StandardCheckoutKiDemo
 //
-//  Created by Vinicius on 09/06/17.
-//  Copyright © 2017 Paymentz. All rights reserved.
+
+
 //
 
 import UIKit
@@ -21,13 +21,13 @@ class ViewController: UIViewController, StandardCheckoutDelegate {
         let secureKey = "znOd1gM5iOYeL03kB9v9aXapJXkwmOQn"
         
         let requestParameters = RequestParameters()
-        requestParameters.memberId = "10469"
+        requestParameters.memberId = "11344"
         requestParameters.paymentMode = PaymentMode().cc
-        requestParameters.terminalId = "275"
+        requestParameters.terminalId = ""
         requestParameters.merchantTransactionId = "randomnumber265"
         requestParameters.amount = "50.00"
         requestParameters.currency = "USD"
-        requestParameters.toType = "pz"
+        requestParameters.toType = "docspartner"
         requestParameters.paymentBrand = PaymentBrand().visa
         requestParameters.merchantRedirectUrl = "www.merchantredirecturl.com"
         requestParameters.tmplAmount = "50.00"
@@ -41,7 +41,7 @@ class ViewController: UIViewController, StandardCheckoutDelegate {
         requestParameters.postCode = "400064"
         requestParameters.telnocc = "+91"
         requestParameters.phone = "9096831666"
-        requestParameters.hostUrl = "https://staging.testurl.com/transaction/PayProcessController"
+        requestParameters.hostUrl = "https://testurl.com/transaction/PayProcessController"
         
         let standardCheckout = StandardCheckout(viewController: self)
         standardCheckout.initPayment(requestParameters: requestParameters, standardCheckoutDelegate: self, secureKey: secureKey)
